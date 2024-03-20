@@ -7,6 +7,14 @@ const graph = {
   f: [],
 };
 
+/*
+
+  a -> c -> e
+  \
+   -> b -> d -> f
+
+*/
+
 depthFirstPrint(graph, "a");
 
 function depthFirstPrint(graph, start) {

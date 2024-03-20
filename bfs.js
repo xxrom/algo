@@ -7,6 +7,14 @@ const graph = {
   f: [],
 };
 
+/*
+
+  a -> c -> e
+  \
+   -> b -> d -> f
+
+*/
+
 breadthFirstPrint(graph, "a");
 
 function breadthFirstPrint(graph, start) {
