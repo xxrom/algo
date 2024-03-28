@@ -16,7 +16,7 @@ const getCopyTree = (root) => {
     parent.left = new Node();
     parent.right = new Node();
 
-    //console.log("CurrentNode", currentNode.value);
+    console.log("CurrentNode", currentNode.value);
 
     if (typeof currentNode.left?.value === "number") {
       queue.push([parent.left, currentNode.left]);
